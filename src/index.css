@@ -4,3 +4,31 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #10b981 transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #10b981;
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+  opacity: 0.8;
+}
