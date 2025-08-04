@@ -43,37 +43,37 @@ const Navbar = () => {
           </a>
         </div>
         <div className="navbar-end hidden lg:flex">
-          <ul className="flex gap-5 px-1">
+          <ul className="flex gap-8 px-1">
             <li className="">
-              <a href="#home" className="flex">
+              <a href="#home" className="flex hover:text-green-400 transition-all duration-300">
                 <span className="text-green-400">&lt;</span>
                 <p>Home</p>
                 <span className="text-green-400">/&gt;</span>
               </a>
             </li>
             <li className="">
-              <a href="#about" className="flex">
+              <a href="#about" className="flex hover:text-green-400 transition-all duration-300">
                 <span className="text-green-400">&lt;</span>
                 <p>About</p>
                 <span className="text-green-400">/&gt;</span>
               </a>
             </li>
             <li className="">
-              <a href="#skills" className="flex">
+              <a href="#skills" className="flex hover:text-green-400 transition-all duration-300">
                 <span className="text-green-400">&lt;</span>
                 <p>Skills</p>
                 <span className="text-green-400">/&gt;</span>
               </a>
             </li>
             <li className="">
-              <a href="#projects" className="flex">
+              <a href="#projects" className="flex hover:text-green-400 transition-all duration-300">
                 <span className="text-green-400">&lt;</span>
                 <p>Projects</p>
                 <span className="text-green-400">/&gt;</span>
               </a>
             </li>
             <li className="">
-              <a href="#contact" className="flex">
+              <a href="#contact" className="flex hover:text-green-400 transition-all duration-300">
                 <span className="text-green-400">&lt;</span>
                 <p>Contact</p>
                 <span className="text-green-400">/&gt;</span>

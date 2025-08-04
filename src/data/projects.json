@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Tutor Lingo",
+    "description": "A full-stack web application where users can publish and book tutorials. Built with React Router data API mode and Firebase Authentication.",
+    "image": "https://img.3s-soft.com/uploads/tutor.png",
+    "tags": ["React.js", "Firebase", "MongoDB", "React Router"],
+    "features": [
+      "Dynamic Routing",
+      "User Authentication",
+      "Tutorial Booking",
+      "Secure Payments"
+    ],
+    "liveUrl": "#",
+    "githubUrl": "#",
+    "category": "Full-Stack"
+  },
+  {
+    "title": "Recipe Haven",
+    "description": "Collaborative full-stack platform with engaging content creation. Implemented user-friendly interfaces with protected routes and responsive design.",
+    "image": "https://img.3s-soft.com/uploads/recipe.png",
+    "tags": ["React.js", "Tailwind CSS", "API Integration", "Responsive Design"],
+    "features": [
+      "Content Management",
+      "User Profiles",
+      "Recipe Search",
+      "Social Features"
+    ],
+    "liveUrl": "#",
+    "githubUrl": "#",
+    "category": "Frontend"
+  },
+  {
+    "title": "BloodBank BD",
+    "description": "Full-stack Blood Bank platform with donor registration, login, and donation scheduling. Integrated backend APIs using TanStack Query.",
+    "image": "https://img.3s-soft.com/uploads/bloodbank.png",
+    "tags": ["React.js", "TanStack Query", "Protected Routes", "API Integration"],
+    "features": [
+      "Donor Management",
+      "Appointment Scheduling",
+      "Real-time Updates",
+      "Admin Dashboard"
+    ],
+    "liveUrl": "#",
+    "githubUrl": "#",
+    "category": "Full-Stack"
+  }
+]
