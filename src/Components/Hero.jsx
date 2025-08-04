@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden py-20"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden py-20 bg-[#111827]"
     >
       {/* Animated code blocks background */}
       <div className="absolute inset-0">
@@ -28,7 +28,7 @@ const Hero = () => {
 
       {/* Floating code snippets */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-20 right-4 md:right-20 opacity-10 font-mono text-green-400 animate-float hidden sm:block">
+        <div className="absolute top-20 right-4 md:right-20 opacity-15 font-mono text-green-400 animate-float hidden sm:block">
           <div className="bg-gray-800/50 p-4 rounded-lg border border-green-400/20">
             <div className="text-xs md:text-sm">const developer = &#123;</div>
             <div className="ml-4 text-xs md:text-sm">name: 'Borhan',</div>
@@ -38,7 +38,7 @@ const Hero = () => {
             <div>&#125;;</div>
           </div>
         </div>
-        <div className="absolute bottom-32 left-4 md:left-20 opacity-10 font-mono text-blue-400 animate-float delay-1000 hidden sm:block">
+        <div className="absolute bottom-32 left-4 md:left-20 opacity-15 font-mono text-blue-400 animate-float delay-1000 hidden sm:block">
           <div className="bg-gray-800/50 p-4 rounded-lg border border-blue-400/20">
             <div className="text-xs md:text-sm">
               function buildAmazingApps() &#123;
@@ -168,7 +168,7 @@ const Hero = () => {
         onClick={scrollToAbout}
         className="absolute bottom-4 md:bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce z-20"
       >
-        <div className="flex flex-col items-center font-mono text-green-400 bg-gray-900/80 backdrop-blur-sm px-3 py-2 rounded-lg border border-green-400/30 hover:border-green-400/60 transition-all duration-300 group">
+        <div className="flex flex-col items-center font-mono text-green-400 bg-gray-900/80 backdrop-blur-sm px-3 py-2 rounded-lg border border-green-400/30 hover:border-green-400/60 transition-all duration-300 group cursor-pointer">
           <span className="text-xs mb-1 hidden sm:block group-hover:text-blue-400 transition-colors">
             scroll_down()
           </span>
