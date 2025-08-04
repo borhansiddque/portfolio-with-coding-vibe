@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <ParticleBackground />
-      <Navbar></Navbar>
+      <Navbar />
       <Hero />
       <About />
       <Skills />
