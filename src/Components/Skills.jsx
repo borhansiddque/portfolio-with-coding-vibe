@@ -125,7 +125,7 @@ const Skills = () => {
             <div className="font-mono text-xs md:text-sm mb-4">
               <div className="text-green-400">// Continuous Learning Mode</div>
               <div className="text-gray-300">
-                <span className="text-purple-400">while</span> (<span className="text-blue-400">learning</span> === <span className="text-yellow-400">true</span>) &#123;
+                <span className="text-purple-400">if</span> (<span className="text-blue-400">learning</span> === <span className="text-yellow-400">true</span>) &#123;
               </div>
               <div className="ml-2 md:ml-4 text-gray-300">
                 <span className="text-blue-400">skills</span>.<span className="text-green-400">push</span>(<span className="text-yellow-400">'new_technology'</span>);

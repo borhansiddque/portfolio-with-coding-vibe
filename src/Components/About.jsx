@@ -35,7 +35,7 @@ const About = () => {
           <div className="font-mono text-green-400 mt-2">&lt;/section&gt;</div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 ">
           <div className="space-y-6">
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-green-500/10 rounded-lg blur-xl hidden md:block"></div>
