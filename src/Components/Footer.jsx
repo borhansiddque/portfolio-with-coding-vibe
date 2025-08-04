@@ -3,7 +3,7 @@ import { FiTerminal } from "react-icons/fi";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <footer className="py-8 bg-gray-900/90 border-t border-green-400/20 relative">
       {/* Code decoration */}

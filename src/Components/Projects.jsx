@@ -9,11 +9,9 @@ import {
   FiTerminal,
 } from "react-icons/fi";
 
-import projects from '../data/projects.json'
+import projects from "../data/projects.json";
 
 const Projects = () => {
-
-
   const getIcon = (category) => {
     switch (category) {
       case "Full-Stack":
@@ -59,7 +57,7 @@ const Projects = () => {
         </div>
 
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
-          {projects.map((project, index) => {
+          {projects.map((project) => {
             const IconComponent = getIcon(project.category);
             return (
               <div
@@ -177,9 +175,9 @@ const Projects = () => {
           <br />
           <a href="https://github.com/borhansiddque" target="_blank">
             <button className="px-6 md:px-8 py-3 border border-green-400 text-green-400 rounded-lg font-medium hover:bg-green-400/10 hover:text-green-300 transition-all duration-300 font-mono text-sm md:text-base cursor-pointer">
-            <FiCode size={14} className="inline mr-2 md:w-4 md:h-4" />
-            View All Projects
-          </button>
+              <FiCode size={14} className="inline mr-2 md:w-4 md:h-4" />
+              View All Projects
+            </button>
           </a>
         </div>
       </div>

@@ -18,7 +18,12 @@
     "title": "Recipe Haven",
     "description": "Collaborative full-stack platform with engaging content creation. Implemented user-friendly interfaces with protected routes and responsive design.",
     "image": "https://img.3s-soft.com/uploads/recipe.png",
-    "tags": ["React.js", "Tailwind CSS", "API Integration", "Responsive Design"],
+    "tags": [
+      "React.js",
+      "Tailwind CSS",
+      "API Integration",
+      "Responsive Design"
+    ],
     "features": [
       "Content Management",
       "User Profiles",
@@ -33,7 +38,12 @@
     "title": "BloodBank BD",
     "description": "Full-stack Blood Bank platform with donor registration, login, and donation scheduling. Integrated backend APIs using TanStack Query.",
     "image": "https://img.3s-soft.com/uploads/bloodbank.png",
-    "tags": ["React.js", "TanStack Query", "Protected Routes", "API Integration"],
+    "tags": [
+      "React.js",
+      "TanStack Query",
+      "Protected Routes",
+      "API Integration"
+    ],
     "features": [
       "Donor Management",
       "Appointment Scheduling",

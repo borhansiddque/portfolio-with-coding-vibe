@@ -9,7 +9,6 @@ import {
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
-
   const scrollToAbout = () => {
     document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
   };
@@ -128,7 +127,11 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4">
-              <a href="https://github.com/borhansiddque" target="_blank" className="w-full sm:w-auto px-6 md:px-8 py-3 bg-gradient-to-r from-green-600 to-blue-600 rounded-lg font-mono font-semibold hover:from-green-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg border border-green-400/30 text-sm md:text-base cursor-pointer">
+              <a
+                href="https://github.com/borhansiddque"
+                target="_blank"
+                className="w-full sm:w-auto px-6 md:px-8 py-3 bg-gradient-to-r from-green-600 to-blue-600 rounded-lg font-mono font-semibold hover:from-green-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg border border-green-400/30 text-sm md:text-base cursor-pointer"
+              >
                 <FiCode className="inline mr-2" size={16} />
                 View My Code
               </a>
@@ -143,9 +146,21 @@ const Hero = () => {
         <div className="text-center mt-6 sm:mt-8 md:mt-12 mb-16 md:mb-20">
           <div className="flex justify-center space-x-4 md:space-x-6">
             {[
-              { icon: FaGithub, href: "https://github.com/borhansiddque", label: "GitHub" },
-              { icon: FaLinkedin, href: "https://www.linkedin.com/in/borhan-siddque/", label: "LinkedIn" },
-              { icon: FaFacebook, href: "https://www.facebook.com/borhan.siddque.19/", label: "Facebook" },
+              {
+                icon: FaGithub,
+                href: "https://github.com/borhansiddque",
+                label: "GitHub",
+              },
+              {
+                icon: FaLinkedin,
+                href: "https://www.linkedin.com/in/borhan-siddque/",
+                label: "LinkedIn",
+              },
+              {
+                icon: FaFacebook,
+                href: "https://www.facebook.com/borhan.siddque.19/",
+                label: "Facebook",
+              },
               // { icon: FiExternalLink, href: "#", label: "Portfolio" },
             ].map(({ icon: Icon, href, label }) => (
               <a

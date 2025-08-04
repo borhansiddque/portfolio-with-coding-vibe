@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { Mail, Phone, MapPin, Send, Github, Linkedin, Facebook, ExternalLink, Terminal, Code, MessageCircle } from 'lucide-react';
 import {
   FiPhone,
   FiMapPin,
@@ -133,7 +132,7 @@ const Contact = () => {
               </div>
 
               <div className="space-y-3 md:space-y-4">
-                {contactInfo.map((info, index) => (
+                {contactInfo.map((info) => (
                   <a
                     key={info.label}
                     href={info.href}
@@ -173,22 +172,20 @@ const Contact = () => {
               </div>
 
               <div className="grid grid-cols-2 gap-3">
-                {socialLinks.map(
-                  ({ icon: Icon, href, label, color }, index) => (
-                    <a
-                      key={label}
-                      href={href}
-                      className={`p-3 bg-gray-800/50 rounded-lg ${color} transition-all duration-300 transform hover:scale-105 border border-gray-600/50 hover:border-green-400/50 group`}
-                      aria-label={label}
-                      target="_blank"
-                    >
-                      <div className="flex items-center space-x-2">
-                        <Icon size={16} />
-                        <span className="font-mono text-sm">{label}</span>
-                      </div>
-                    </a>
-                  )
-                )}
+                {socialLinks.map(({ icon: Icon, href, label, color }) => (
+                  <a
+                    key={label}
+                    href={href}
+                    className={`p-3 bg-gray-800/50 rounded-lg ${color} transition-all duration-300 transform hover:scale-105 border border-gray-600/50 hover:border-green-400/50 group`}
+                    aria-label={label}
+                    target="_blank"
+                  >
+                    <div className="flex items-center space-x-2">
+                      <Icon size={16} />
+                      <span className="font-mono text-sm">{label}</span>
+                    </div>
+                  </a>
+                ))}
               </div>
 
               <div className="font-mono text-xs mt-3 text-green-400">];</div>
@@ -269,7 +266,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full flex items-center justify-center space-x-2 px-6 py-3 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg font-semibold hover:from-green-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 font-mono border border-green-400/30 text-sm"
+                className="w-full flex items-center justify-center space-x-2 px-6 py-3 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg font-semibold hover:from-green-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 font-mono border border-green-400/30 text-sm cursor-pointer"
               >
                 <FiSend size={16} />
                 <span>sendMessage()</span>
