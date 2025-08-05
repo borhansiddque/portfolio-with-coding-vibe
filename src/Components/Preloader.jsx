@@ -8,7 +8,9 @@ const Preloader = () => {
         <div className="absolute top-20 right-4 md:right-20 opacity-20 font-mono text-green-400 animate-float hidden sm:block">
           <div className="bg-gray-800/70 p-4 rounded-lg border border-green-400/90">
             <div className="text-xs md:text-sm">const developer = &#123;</div>
-            <div className="ml-4 text-xs md:text-sm">name: 'Borhan Siddque',</div>
+            <div className="ml-4 text-xs md:text-sm">
+              name: 'Borhan Siddque',
+            </div>
             <div className="ml-4 text-xs md:text-sm">
               skills: ['React', 'Next.js']
             </div>
