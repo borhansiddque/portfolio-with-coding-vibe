@@ -7,7 +7,7 @@ const Navbar = () => {
   const sectionIds = ["home", "about", "skills", "projects", "contact"];
   const activeSection = useScrollSpy(sectionIds, 100);
   return (
-    <nav className="bg-[#111827]/50 backdrop-blur-2xl sticky top-0 border-b border-green-700 z-50">
+    <nav className="bg-[#111827]/50 backdrop-blur-2xl sticky top-0 border-b border-green-700 z-40">
       <div className="navbar max-w-[1280px] mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
