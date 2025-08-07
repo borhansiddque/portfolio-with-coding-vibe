@@ -165,17 +165,6 @@ const Skills = () => {
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-        @keyframes fillProgress {
-          from {
-            width: 0%;
-          }
-          to {
-            width: var(--target-width);
-          }
-        }
-      `}</style>
     </section>
   );
 };
