@@ -135,10 +135,10 @@ const Hero = () => {
                 <FiCode className="inline mr-2" size={16} />
                 View My Code
               </a>
-              <button className="w-full sm:w-auto px-6 md:px-8 py-3 border border-green-400 rounded-lg font-mono font-semibold hover:bg-green-400/10 hover:text-green-400 transition-all duration-300 text-sm md:text-base cursor-pointer">
+              <a href="/resume_of_borhan_siddque.pdf" download className="w-full sm:w-auto px-6 md:px-8 py-3 border border-green-400 rounded-lg font-mono font-semibold hover:bg-green-400/10 hover:text-green-400 transition-all duration-300 text-sm md:text-base cursor-pointer">
                 <FiTerminal className="inline mr-2" size={16} />
-                Download CV
-              </button>
+                Download Resume
+              </a>
             </div>
           </div>
         </div>
