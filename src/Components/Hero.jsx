@@ -64,10 +64,10 @@ const Hero = () => {
                 />
               </div>
               {/* Code decoration around image */}
-              <div className="absolute -top-6 -right-6 bg-gray-800/90 border border-green-400/30 rounded px-2 py-1 font-mono text-xs text-green-400 hidden md:block">
+              <div className="absolute -top-6 -right-6 bg-gray-800/90 border border-green-400/30 rounded px-2 py-1 font-mono text-xs text-green-400 block">
                 &lt;img /&gt;
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-gray-800/90 border border-blue-400/30 rounded px-2 py-1 font-mono text-xs text-blue-400 hidden md:block">
+              <div className="absolute -bottom-6 -left-6 bg-gray-800/90 border border-blue-400/30 rounded px-2 py-1 font-mono text-xs text-blue-400 block">
                 developer.jpg
               </div>
             </div>
@@ -83,7 +83,7 @@ const Hero = () => {
               <span className="text-white">/&gt;</span>
             </h1>
 
-            <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-300 h-6 sm:h-8 md:h-10 lg:h-12 font-mono px-4">
+            <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-gray-300 h-6 sm:h-8 md:h-10 lg:h-12 font-mono px-4 mb-10 sm:mb-0">
               <span className="text-green-400">const role = "</span>
               <span className="text-blue-400">
                 <TypeAnimation

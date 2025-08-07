@@ -8,11 +8,11 @@ const Navbar = () => {
   const activeSection = useScrollSpy(sectionIds, 100);
   return (
     <nav className="bg-[#111827]/50 backdrop-blur-2xl sticky top-0 border-b border-green-400/20 z-40">
-      <div className="navbar max-w-[1280px] mx-auto">
-        <div className="navbar-start">
+      <div className="navbar max-w-[1280px] mx-auto px-5">
+        <div className="navbar-start gap-5 flex-1">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <MdMenu />
+            <div tabIndex={0} role="button" className="lg:hidden">
+              <MdMenu size={25} className="text-green-400" />
             </div>
             <ul
               tabIndex={0}
@@ -91,10 +91,21 @@ const Navbar = () => {
             </ul>
           </div>
           <a href="#home">
-            <div className="flex items-center space-x-2 text-2xl font-mono font-bold">
-              <FaTerminal className="text-green-400" size={20} />
-              <span className="text-white">borhan</span>
-              <span className="text-green-400 animate-pulse">_</span>
+            <div className="flex items-center md:space-x-2 text-2xl font-mono font-bold">
+              <FaTerminal
+                className="text-green-400 hidden md:inline-block"
+                size={20}
+              />
+              <span className="text-white hidden md:inline-block">borhan</span>
+              <span className="text-white inline-block md:hidden">
+                Borhan Siddque
+              </span>
+              <span className="text-green-400 animate-pulse hidden md:inline-block">
+                _
+              </span>
+              <span className="text-green-400 animate-pulse inline-block md:hidden">
+                .
+              </span>
             </div>
           </a>
         </div>

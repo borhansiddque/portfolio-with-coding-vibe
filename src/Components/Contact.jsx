@@ -98,7 +98,7 @@ const Contact = () => {
         // Let's connect!
       </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="font-mono text-green-400 mb-2">contact.init()</div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 font-mono">
@@ -121,9 +121,9 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
-          <div className="space-y-6">
-            <div className="bg-gray-900/80 rounded-2xl p-4 md:p-6 border border-green-400/20">
+        <div className="flex flex-col md:flex-row gap-8 lg:gap-12">
+          <div className="flex-1 space-y-8">
+            <div className="bg-gray-900/80 rounded-2xl p-4 md:p-6 border border-green-400/20 w-full">
               <div className="flex items-center space-x-2 mb-6">
                 <FiTerminal className="text-green-400" size={16} />
                 <h3 className="text-lg md:text-xl font-semibold text-white font-mono">
@@ -192,7 +192,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="bg-gray-900/80 rounded-2xl p-4 md:p-6 border border-blue-400/20 h-fit">
+          <div className="bg-gray-900/80 rounded-2xl p-4 md:p-6 border border-blue-400/20 h-fit flex-1">
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-3 h-3 bg-red-500 rounded-full"></div>
               <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>

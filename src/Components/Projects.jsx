@@ -30,7 +30,7 @@ const Projects = () => {
         /* Projects Portfolio */
       </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="font-mono text-green-400 mb-2">
             projects.map((project) =&gt; &#123;
@@ -56,7 +56,7 @@ const Projects = () => {
           <div className="font-mono text-green-400 mt-2">&#125;)</div>
         </div>
 
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => {
             const IconComponent = getIcon(project.category);
             return (
@@ -157,7 +157,7 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-          <div className="inline-block bg-gray-900/80 border border-green-400/30 rounded-lg p-3 md:p-4 font-mono mb-4 max-w-xs sm:max-w-md mx-auto">
+          <div className=" bg-gray-900/80 border border-green-400/30 rounded-lg p-3 md:p-4 font-mono mb-4 max-w-xs sm:max-w-md mx-auto">
             <div className="text-green-400">
               // More projects available on GitHub
             </div>
