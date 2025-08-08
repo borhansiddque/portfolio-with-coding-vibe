@@ -266,7 +266,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="w-full flex items-center justify-center space-x-2 px-6 py-3 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg font-semibold hover:from-green-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 font-mono border border-green-400/30 text-sm cursor-pointer"
+                className="w-full flex items-center justify-center space-x-2 px-6 py-3 bg-gradient-to-r from-green-800 via-green-600 to-green-800 rounded-lg font-mono font-semibold hover:from-green-700  hover:to-green-700 transition-all duration-300 transform hover:scale-105 border border-green-400/30 text-sm cursor-pointer"
               >
                 <FiSend size={16} />
                 <span>sendMessage()</span>

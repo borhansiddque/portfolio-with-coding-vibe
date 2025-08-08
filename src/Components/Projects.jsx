@@ -138,7 +138,7 @@ const Projects = () => {
                 <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-3 p-5">
                   <a
                     href={project.liveUrl}
-                    className="flex-1 flex items-center justify-center space-x-2 px-3 md:px-4 py-2 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg text-white text-xs md:text-sm font-medium hover:from-green-600 hover:to-blue-600 transition-all duration-300 font-mono border border-green-400/30"
+                    className="flex-1 flex items-center justify-center space-x-2 px-3 md:px-4 py-2 bg-gradient-to-r from-green-800 via-green-600 to-green-800 rounded-lg font-mono font-semibold hover:from-green-700  hover:to-green-700  text-white text-xs md:text-sm transition-all duration-300 border border-green-400/30"
                   >
                     <FiExternalLink size={14} />
                     <span>Live Demo</span>

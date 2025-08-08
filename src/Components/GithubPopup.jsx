@@ -81,7 +81,7 @@ const GithubPopup = () => {
             href="https://github.com/borhansiddque"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block rounded-full px-4 py-2 text-base font-bold bg-linear-to-r from-green-700 to-green-600 text-orange-100 shadow-none hover:shadow-sm hover:shadow-green-500 hover:scale-95 transition-all duration-300 w-full my-2"
+            className="inline-block rounded-full px-4 py-2 text-base font-bold bg-gradient-to-r from-green-800 via-green-600 to-green-800 font-mono hover:from-green-700  hover:to-green-700 text-orange-100 shadow-none hover:shadow-sm hover:shadow-green-500 hover:scale-95 transition-all duration-300 w-full my-2"
           >
             Follow on GitHub
           </a>

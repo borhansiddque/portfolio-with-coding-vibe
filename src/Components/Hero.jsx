@@ -130,7 +130,7 @@ const Hero = () => {
               <a
                 href="https://github.com/borhansiddque"
                 target="_blank"
-                className="w-full sm:w-auto px-6 md:px-8 py-3 bg-gradient-to-r from-green-600 to-blue-600 rounded-lg font-mono font-semibold hover:from-green-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg border border-green-400/30 text-sm md:text-base cursor-pointer"
+                className="w-full sm:w-auto px-6 md:px-8 py-3 bg-gradient-to-r from-green-800 via-green-600 to-green-800 rounded-lg font-mono font-semibold hover:from-green-700  hover:to-green-700 transform hover:scale-105 shadow-lg border border-green-400/30 text-sm md:text-base cursor-pointer transition-all duration-300"
               >
                 <FiCode className="inline mr-2" size={16} />
                 View My Code
