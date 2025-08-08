@@ -8,6 +8,8 @@ import ParticleBackground from "./Components/ParticleBackground";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Preloader from "./Components/Preloader";
+import GithubPopup from "./Components/GithubPopup";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -24,6 +26,8 @@ function App() {
         <Preloader />
       ) : (
         <>
+          <Toaster position="top-right" />
+          <GithubPopup />
           <ParticleBackground />
           <Navbar />
           <Hero />
