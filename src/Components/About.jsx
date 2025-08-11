@@ -77,21 +77,21 @@ const About = () => {
                   <div className="ml-1 sm:ml-2 md:ml-4">
                     <span className="text-green-400">role</span>:{" "}
                     <span className="text-yellow-400">
-                      'MERN Stack Developer'
+                      'Full-Stack Developer (MERN)'
                     </span>
                     ,
                   </div>
                   <div className="ml-1 sm:ml-2 md:ml-4">
-                    <span className="text-green-400">experience</span>:{" "}
+                    <span className="text-green-400">specialization</span>:{" "}
                     <span className="text-yellow-400">
-                      'Frontend Specialist'
+                      'Frontend Expertise'
                     </span>
                     ,
                   </div>
                   <div className="ml-1 sm:ml-2 md:ml-4">
                     <span className="text-green-400">passion</span>:{" "}
                     <span className="text-yellow-400">
-                      'Building Amazing UIs'
+                      'Crafting Interactive & Scalable Web Apps'
                     </span>
                     ,
                   </div>
@@ -99,18 +99,31 @@ const About = () => {
                     <span className="text-green-400">skills</span>: [
                     <div className="ml-1 sm:ml-2 md:ml-4">
                       <span className="text-yellow-400">'React.js'</span>,{" "}
-                      <span className="text-yellow-400">'JavaScript'</span>,
+                      <span className="text-yellow-400">
+                        'JavaScript (ES6+)'
+                      </span>
+                      ,
                     </div>
                     <div className="ml-1 sm:ml-2 md:ml-4">
                       <span className="text-yellow-400">'Node.js'</span>,{" "}
+                      <span className="text-yellow-400">'Express.js'</span>,
                       <span className="text-yellow-400">'MongoDB'</span>,{" "}
-                      <span className="text-yellow-400">'Express JS'</span>,
+                    </div>
+                    <div className="ml-1 sm:ml-2 md:ml-4">
+                      <span className="text-yellow-400"></span>,
                     </div>
                     <div className="ml-1 sm:ml-2">],</div>
                   </div>
                   <div className="ml-1 sm:ml-2 md:ml-4">
-                    <span className="text-green-400">learning</span>:{" "}
-                    <span className="text-yellow-400">'Always'</span>
+                    <span className="text-green-400">currentLearning</span>:{" "}
+                    <span className="text-yellow-400">
+                      'Next.js, TypeScript'
+                    </span>
+                    ,
+                  </div>
+                  <div className="ml-1 sm:ml-2 md:ml-4">
+                    <span className="text-green-400">mindset</span>:{" "}
+                    <span className="text-yellow-400">'Always Improving'</span>
                   </div>
                   <div>&#125;;</div>
                 </div>
@@ -145,6 +158,7 @@ const About = () => {
           </div>
 
           <div className="space-y-6">
+            {/* Contact JSON */}
             <div className="bg-gray-900/80 p-4 md:p-6 rounded-2xl border border-blue-400/20">
               <div className="flex items-center space-x-2 mb-6">
                 <div className="w-3 h-3 bg-red-500 rounded-full"></div>
@@ -156,6 +170,7 @@ const About = () => {
               </div>
 
               <div className="space-y-3 md:space-y-4 font-mono text-xs md:text-sm">
+                {/* Location */}
                 <div className="flex items-center space-x-3 md:space-x-4">
                   <div className="p-2 md:p-3 bg-green-500/20 rounded-lg flex-shrink-0">
                     <FiMapPin
@@ -166,10 +181,12 @@ const About = () => {
                   <div className="min-w-0 flex-1">
                     <div className="text-gray-400">"location":</div>
                     <div className="text-white break-words">
-                      "Chattogram, Bangladesh"
+                      "Chattogram, Bangladesh",
                     </div>
                   </div>
                 </div>
+
+                {/* Phone */}
                 <div className="flex items-center space-x-3 md:space-x-4">
                   <div className="p-2 md:p-3 bg-blue-500/20 rounded-lg flex-shrink-0">
                     <FiPhone
@@ -180,10 +197,12 @@ const About = () => {
                   <div className="min-w-0 flex-1">
                     <div className="text-gray-400">"phone":</div>
                     <div className="text-white break-words">
-                      "+880 1627323206"
+                      "+880-1627-323206",
                     </div>
                   </div>
                 </div>
+
+                {/* Email */}
                 <div className="flex items-center space-x-3 md:space-x-4">
                   <div className="p-2 md:p-3 bg-purple-500/20 rounded-lg flex-shrink-0">
                     <FiMail
@@ -193,14 +212,39 @@ const About = () => {
                   </div>
                   <div className="min-w-0 flex-1">
                     <div className="text-gray-400">"email":</div>
-                    <div className="text-white break-all">
+                    <a
+                      href="mailto:borhansiddque19@gmail.com"
+                      className="text-white break-all hover:text-green-400 transition"
+                    >
                       "borhansiddque19@gmail.com"
-                    </div>
+                    </a>
+                  </div>
+                </div>
+
+                {/* GitHub */}
+                <div className="flex items-center space-x-3 md:space-x-4">
+                  <div className="p-2 md:p-3 bg-gray-500/20 rounded-lg flex-shrink-0">
+                    <FiGlobe
+                      size={16}
+                      className="text-gray-300 md:w-5 md:h-5"
+                    />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <div className="text-gray-400">"github":</div>
+                    <a
+                      href="https://github.com/borhansiddque"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white hover:text-green-400 transition"
+                    >
+                      "github.com/borhansiddque"
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
 
+            {/* Languages */}
             <div className="bg-gradient-to-br from-green-900/20 to-blue-900/20 p-4 md:p-6 rounded-2xl border border-green-400/20">
               <div className="font-mono">
                 <div className="text-green-400 mb-3 md:mb-4 text-sm md:text-base">
@@ -213,7 +257,7 @@ const About = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-gray-300">English:</span>
-                    <span className="text-blue-400">"Compatible"</span>
+                    <span className="text-blue-400">"Intermediate"</span>
                   </div>
                 </div>
               </div>
