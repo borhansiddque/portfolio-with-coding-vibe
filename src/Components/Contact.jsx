@@ -16,6 +16,7 @@ import {
 import toast from "react-hot-toast";
 
 const Contact = () => {
+  const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -33,6 +34,8 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    setLoading(true);
+
     emailjs
       .send(
         "service_0q4e30j", // Replace with your EmailJS service ID
@@ -44,11 +47,13 @@ const Contact = () => {
         (result) => {
           console.log("Email sent successfully:", result.text);
           toast.success("Message sent successfully!");
+          setLoading(false);
           setFormData({ name: "", email: "", subject: "", message: "" }); // Reset form
         },
         (error) => {
           console.error("Email send error:", error.text);
           toast.error("Failed to send message. Please try again.");
+          setLoading(false);
         }
       );
   };
@@ -288,8 +293,14 @@ const Contact = () => {
                 type="submit"
                 className="w-full flex items-center justify-center space-x-2 px-6 py-3 bg-gradient-to-r from-green-800 via-green-600 to-green-800 rounded-lg font-mono font-semibold hover:from-green-700  hover:to-green-700 transition-all duration-300 transform hover:scale-105 border border-green-400/30 text-sm cursor-pointer"
               >
-                <FiSend size={16} />
-                <span>sendMessage()</span>
+                {loading ? (
+                  <span className="loading loading-spinner loading-xs"></span>
+                ) : (
+                  <>
+                    <FiSend size={16} />
+                    <span>sendMessage()</span>
+                  </>
+                )}
               </button>
             </form>
           </div>
