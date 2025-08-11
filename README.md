@@ -1,12 +1,39 @@
-# React + Vite
+# 🌟 Borhan Siddque - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website repository!  
+This website showcases my work, skills, and experience as a **Frontend Developer**.  
+I specialize in **JavaScript (ES6+), React.js, TypeScript, Node.js, Express.js, and MongoDB**.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** [Portfolio Website](https://borhansiddque.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- Fully responsive & modern UI
+- Built with React.js and Tailwind CSS
+- Smooth animations and transitions
+- Projects showcase with live demo & source links
+- Contact form integration
+- SEO friendly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js (for API/backend integration)
+- **Database:** MongoDB (for backend projects)
+- **Deployment:** Netlify
+- **Version Control:** Git & GitHub
+
+---
+
+## 📂 Folder Structure
+```plaintext
+├── public
+├── src
+│   ├── assets
+│   ├── components
+│   ├── pages
+│   ├── App.jsx
+│   └── main.jsx
+└── README.md
