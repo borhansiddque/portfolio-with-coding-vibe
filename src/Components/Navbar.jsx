@@ -96,7 +96,7 @@ const Navbar = () => {
                 className="text-green-400 hidden md:inline-block"
                 size={20}
               />
-              <span className="text-white hidden md:inline-block">borhan</span>
+              <span className="text-white hidden md:inline-block">Borhan</span>
               <span className="text-white inline-block md:hidden">
                 Borhan Siddque
               </span>

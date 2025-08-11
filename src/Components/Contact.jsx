@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import {
   FiPhone,
   FiMapPin,
@@ -12,6 +13,7 @@ import {
   FiCode,
   FiMessageCircle,
 } from "react-icons/fi";
+import toast from "react-hot-toast";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -30,7 +32,25 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
+
+    emailjs
+      .send(
+        "service_0q4e30j", // Replace with your EmailJS service ID
+        "template_6viruie", // Replace with your EmailJS template ID
+        formData, // Must match template variables
+        "qnYvmyfqxGQjb_eYI" // Replace with your EmailJS public key
+      )
+      .then(
+        (result) => {
+          console.log("Email sent successfully:", result.text);
+          toast.success("Message sent successfully!");
+          setFormData({ name: "", email: "", subject: "", message: "" }); // Reset form
+        },
+        (error) => {
+          console.error("Email send error:", error.text);
+          toast.error("Failed to send message. Please try again.");
+        }
+      );
   };
 
   const contactInfo = [

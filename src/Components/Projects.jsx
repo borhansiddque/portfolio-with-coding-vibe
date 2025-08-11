@@ -138,6 +138,7 @@ const Projects = () => {
                 <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-3 p-5">
                   <a
                     href={project.liveUrl}
+                    target="_blank"
                     className="flex-1 flex items-center justify-center space-x-2 px-3 md:px-4 py-2 bg-gradient-to-r from-green-800 via-green-600 to-green-800 rounded-lg font-mono font-semibold hover:from-green-700  hover:to-green-700  text-white text-xs md:text-sm transition-all duration-300 border border-green-400/30"
                   >
                     <FiExternalLink size={14} />
@@ -145,6 +146,7 @@ const Projects = () => {
                   </a>
                   <a
                     href={project.githubUrl}
+                    target="_blank"
                     className="flex items-center justify-center px-3 md:px-4 py-2 border border-gray-600 rounded-lg text-gray-300 hover:border-green-400 hover:text-green-400 transition-all duration-300 sm:w-auto w-full"
                   >
                     <FiGithub size={14} />

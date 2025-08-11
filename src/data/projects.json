@@ -10,7 +10,7 @@
       "Tutorial Booking",
       "Secure Payments"
     ],
-    "liveUrl": "#",
+    "liveUrl": "https://tutor-lingo.web.app/",
     "githubUrl": "#",
     "category": "Full-Stack"
   },
@@ -30,7 +30,7 @@
       "Recipe Search",
       "Social Features"
     ],
-    "liveUrl": "#",
+    "liveUrl": "https://recipe-haven-app-a09fe.web.app/",
     "githubUrl": "#",
     "category": "Frontend"
   },
@@ -50,7 +50,7 @@
       "Real-time Updates",
       "Admin Dashboard"
     ],
-    "liveUrl": "#",
+    "liveUrl": "https://3s-soft.github.io/bloodbank/",
     "githubUrl": "#",
     "category": "Full-Stack"
   }
