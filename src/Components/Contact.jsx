@@ -110,7 +110,7 @@ const Contact = () => {
     },
     {
       icon: FiExternalLink,
-      href: "#",
+      href: "https://borhansiddque.netlify.app/",
       label: "Portfolio",
       color: "hover:text-purple-400",
     },

@@ -11,7 +11,7 @@
       "Secure Payments"
     ],
     "liveUrl": "https://tutor-lingo.web.app/",
-    "githubUrl": "#",
+    "githubUrl": "https://github.com/borhansiddque/tutor-lingo-app",
     "category": "Full-Stack"
   },
   {
@@ -31,7 +31,7 @@
       "Social Features"
     ],
     "liveUrl": "https://recipe-haven-app-a09fe.web.app/",
-    "githubUrl": "#",
+    "githubUrl": "https://github.com/borhansiddque/recipe-haven-app/",
     "category": "Frontend"
   },
   {
@@ -51,7 +51,7 @@
       "Admin Dashboard"
     ],
     "liveUrl": "https://3s-soft.github.io/bloodbank/",
-    "githubUrl": "#",
+    "githubUrl": "https://github.com/3s-Soft/bloodbank",
     "category": "Full-Stack"
   }
 ]

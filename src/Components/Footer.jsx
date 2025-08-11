@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="text-center md:text-left mb-4 md:mb-0">
             <div className="flex items-center justify-center md:justify-start space-x-2 text-xl md:text-2xl font-bold font-mono mb-2">
               <FiTerminal className="text-green-400" size={20} />
-              <span className="text-white">borhan</span>
+              <span className="text-white">Borhan</span>
               <span className="text-green-400 animate-pulse">_</span>
             </div>
             <div className="font-mono text-xs sm:text-sm text-gray-400 break-words">
